@@ -43,31 +43,7 @@ about your workshop and our administrator may contact you if we need any extra
 information.
 </div>
 
-{% if page.carpentry != site.carpentry %}
-<div class="alert alert-warning">
-You specified <code>carpentry: {{page.carpentry}}</code> in <code>index.md</code> and
-<code>carpentry: {{site.carpentry}}</code> in <code>_config.yml</code>. Make sure you edit both files. After editing <code>_config.yml</code>, you need to run <code>make serve</code> again to 
-see the changes take effect locally.
-</div>
-{% endif %}
-
 {% comment %}
-EVENTBRITE
-
-This block includes the Eventbrite registration widget if
-'eventbrite' has been set in the header.  You can delete it if you
-are not using Eventbrite, or leave it in, since it will not be
-displayed if the 'eventbrite' field in the header is not set.
-{% endcomment %}
-{% if page.eventbrite %}
-<iframe
-  src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
-  frameborder="0"
-  width="100%"
-  height="280px"
-  scrolling="auto">
-</iframe>
-{% endif %}
 
 
 <h2 id="general">General Information</h2>
@@ -138,8 +114,29 @@ SPECIAL REQUIREMENTS
 Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
-  <strong>Requirements:</strong> Participants must bring a laptop with a
-  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. They should have a few specific software packages installed (listed <a href="#setup">below</a>).
+  <strong>Requirements:</strong> Participants must bring a laptop with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have installed Git, a Bash terminal emulator, and Python 3 version. <strong> Please have this done prior to the first day of class to ensure we are able to cover all of the course content. <strong> 
+  
+  <strong>RDE Setup Instructions<strong>
+  This assumes that you have administrator rights on your machine to install software and you are on the Windows platform. If you do not, please contact your RDE technician to do the following steps:
+  1) Install a Bash emulator and Git. While you may use whatever tools you are most comfortable with, recommended versions can be found here. (https://gitforwindows.org/)
+  
+  2) Install a Python version. While any Python 3 version is acceptable, the Anaconda distribution is recommended. (https://www.anaconda.com/distribution/)
+  
+  <strong>ACE-IT Setup Instructions<strong>
+  1) Through SoftwareTrack, request the installation of Git. This should be self-service and should install immediately,
+  2) Request that Python be installed on your machine. This is a multi-step process detailed below:
+      a.	Go to the ACEIT website: https://aceit.usace.army.mil/Pages/default.aspx 
+      b.	Hover over the “Self Help” option until a menu appears
+      c.	Scroll down to “Software Search (Approval Status, etc.)” and click it
+      d.	From here, an app portal will open up
+      e.	Once the app portal is open, go to the top of page and within the “Search Catalog” search for “Python”
+      f.	Several options for Python will appear; scroll down until you find “Python Software Foundation Python 3.6.4”
+      g.	Click “Add to Cart”
+      h.	Go to checkout making sure to choose the machine you want to use for the analysis 
+      i.	Click “Next”
+      j.	The request for install has been submitted; someone from ACEIT will contact you to finish the installation process (usually takes 1-3 days)
+      k.	An ACEIT technician will install Python 3.6.4 on your local machine
+  
 </p>
 
 {% comment%}
