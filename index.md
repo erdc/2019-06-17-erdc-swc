@@ -30,20 +30,6 @@ And run 'make workshop-check' *before* committing to make sure that changes are 
 {% endcomment %}
 
 
-
-{% comment %}
-For a workshop please delete the following block
-{% endcomment %}
-<div class="alert alert-danger">
-This is the workshop template. Delete these lines and use it to customize your
-own website. If you are running a self-organized workshop or have not put in a
-workshop request yet, please also fill in 
-<a href="{{site.amy_site}}/submit">this workshop request form</a> to let us know
-about your workshop and our administrator may contact you if we need any extra
-information.
-</div>
-
-
 <h2 id="general">General Information</h2>
 
 {% comment %}
@@ -116,24 +102,30 @@ Modify the block below if there are any special requirements.
   
   <strong>RDE Setup Instructions<strong>
   This assumes that you have administrator rights on your machine to install software and you are on the Windows platform. If you do not, please contact your RDE technician to do the following steps:
-  1) Install a Bash emulator and Git. While you may use whatever tools you are most comfortable with, recommended versions can be found here. (https://gitforwindows.org/)
-  
-  2) Install a Python version. While any Python 3 version is acceptable, the Anaconda distribution is recommended. (https://www.anaconda.com/distribution/)
+  <ol>
+    <li>Install a Bash emulator and Git. While you may use whatever tools you are most comfortable with, recommended versions can be found here. (https://gitforwindows.org/) </li>
+    <li>Install a Python version. While any Python 3 version is acceptable, the Anaconda distribution is recommended. (https://www.anaconda.com/distribution/) </li>
+  </ol>
   
   <strong>ACE-IT Setup Instructions<strong>
-  1) Through SoftwareTrack, request the installation of Git. This should be self-service and should install immediately,
-  2) Request that Python be installed on your machine. This is a multi-step process detailed below:
-      a.	Go to the ACEIT website: https://aceit.usace.army.mil/Pages/default.aspx 
-      b.	Hover over the “Self Help” option until a menu appears
-      c.	Scroll down to “Software Search (Approval Status, etc.)” and click it
-      d.	From here, an app portal will open up
-      e.	Once the app portal is open, go to the top of page and within the “Search Catalog” search for “Python”
-      f.	Several options for Python will appear; scroll down until you find “Python Software Foundation Python 3.6.4”
-      g.	Click “Add to Cart”
-      h.	Go to checkout making sure to choose the machine you want to use for the analysis 
-      i.	Click “Next”
-      j.	The request for install has been submitted; someone from ACEIT will contact you to finish the installation process (usually takes 1-3 days)
-      k.	An ACEIT technician will install Python 3.6.4 on your local machine
+  THis process will involve using the ACE-IT SoftwareTrak system to install new software onto your machine. Please give sufficient time in advance of the workshop for the installation process.
+  <ol>
+  <li> Through SoftwareTrack, request the installation of Git. This should be self-service and should install immediately. </li>
+  <li> Request that Python be installed on your machine. This is a multi-step process detailed below:
+    <ol type="a">
+      <li> Go to the ACEIT website: https://aceit.usace.army.mil/Pages/default.aspx </li>
+      <li> Hover over the “Self Help” option until a menu appears </li>
+      <li> Scroll down to “Software Search (Approval Status, etc.)” and click it </li>
+      <li> From here, an app portal will open up </li>
+      <li> Once the app portal is open, go to the top of page and within the “Search Catalog” search for “Python” </li>
+      <li> Several options for Python will appear; scroll down until you find “Python Software Foundation Python 3.6.4” </li>
+      <li> Click “Add to Cart” </li>
+      <li> Go to checkout making sure to choose the machine you want to use for the analysis </li>
+      <li> Click “Next” </li>
+      <li> The request for install has been submitted; someone from ACEIT will contact you to finish the installation process (usually takes 1-3 days) </li>
+      <li> An ACEIT technician will install Python 3.6.4 on your local machine </li>
+    </ol>
+  </ol>
   
 </p>
 
