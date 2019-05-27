@@ -43,8 +43,6 @@ about your workshop and our administrator may contact you if we need any extra
 information.
 </div>
 
-{% comment %}
-
 
 <h2 id="general">General Information</h2>
 
