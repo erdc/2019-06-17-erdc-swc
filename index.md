@@ -74,6 +74,7 @@ address.
   {{page.address}}.
   Get directions with
   <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
+  Exact room TBD. Please check back closer to the event.
   or
   <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>.
 </p>
@@ -98,17 +99,18 @@ SPECIAL REQUIREMENTS
 Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
-  <strong>Requirements:</strong> Participants must bring a laptop with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have installed Git, a Bash terminal emulator, and Python 3 version. <strong> Please have this done prior to the first day of class to ensure we are able to cover all of the course content. <strong> 
+  <strong>Requirements:</strong> Participants must bring a laptop with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have installed Git, a Bash terminal emulator, and Python 3 version. <strong> Please have this done prior to the first day of class to ensure we are able to cover all of the course content. </strong> </p>
   
-  <strong>RDE Setup Instructions<strong>
-  This assumes that you have administrator rights on your machine to install software and you are on the Windows platform. If you do not, please contact your RDE technician to do the following steps:
+  <p><strong>RDE Setup Instructions</strong></p>
+  <p>This assumes that you have administrator rights on your machine to install software and you are on the Windows platform. If you do not, please contact your RDE technician to do the following steps:
   <ol>
     <li>Install a Bash emulator and Git. While you may use whatever tools you are most comfortable with, recommended versions can be found here. (https://gitforwindows.org/) </li>
     <li>Install a Python version. While any Python 3 version is acceptable, the Anaconda distribution is recommended. (https://www.anaconda.com/distribution/) </li>
   </ol>
+  </p>
   
-  <strong>ACE-IT Setup Instructions<strong>
-  THis process will involve using the ACE-IT SoftwareTrak system to install new software onto your machine. Please give sufficient time in advance of the workshop for the installation process.
+  <p><strong>ACE-IT Setup Instructions</strong></p>
+  <p>This process will involve using the ACE-IT SoftwareTrak system to install new software onto your machine. Please give sufficient time in advance of the workshop for the installation process.
   <ol>
   <li> Through SoftwareTrack, request the installation of Git. This should be self-service and should install immediately. </li>
   <li> Request that Python be installed on your machine. This is a multi-step process detailed below:
@@ -126,7 +128,6 @@ Modify the block below if there are any special requirements.
       <li> An ACEIT technician will install Python 3.6.4 on your local machine </li>
     </ol>
   </ol>
-  
 </p>
 
 {% comment%}
