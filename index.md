@@ -560,7 +560,7 @@ please preview your site before committing, and make sure to run
           <li>Install Python 3 using all of the defaults for installation <em>except</em> make sure to check <strong>Add Anaconda to my PATH environment variable</strong>.</li>
         </ol>
       <p><strong>ACE-IT Setup Instructions</strong></p>
-  <p>This process will involve using the ACE-IT SoftwareTrak system to install new software onto your machine. Please give sufficient time in advance of the workshop for the installation process.
+  <p>This process will involve using the ACE-IT SoftwareTrak system to install new software onto your machine. Please give sufficient time in advance of the workshop for the installation process. </p>
   <ol>
   <li> Through SoftwareTrack, request the installation of Git. This should be self-service and should install immediately. </li>
   <li> Request that Python be installed on your machine. This is a multi-step process detailed below:
@@ -576,6 +576,7 @@ please preview your site before committing, and make sure to run
       <li> Click “Next” </li>
       <li> The request for install has been submitted; someone from ACEIT will contact you to finish the installation process (usually takes 1-3 days) </li>
       <li> An ACEIT technician will install Python 3.6.4 on your local machine </li>
+    </ol>
     </ol>
       </article>
       <article role="tabpanel" class="tab-pane active" id="python-macos">
