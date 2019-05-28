@@ -577,7 +577,6 @@ please preview your site before committing, and make sure to run
       <li> The request for install has been submitted; someone from ACEIT will contact you to finish the installation process (usually takes 1-3 days) </li>
       <li> An ACEIT technician will install Python 3.6.4 on your local machine </li>
     </ol>
-  </ol>
       </article>
       <article role="tabpanel" class="tab-pane active" id="python-macos">
         <a href="https://www.youtube.com/watch?v=TcSAln46u9U">Video Tutorial</a>
