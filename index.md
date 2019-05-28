@@ -100,27 +100,6 @@ Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
   <strong>Requirements:</strong> Participants must bring a laptop with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have installed Git, a Bash terminal emulator, and Python 3 version. <strong> Please have this done prior to the first day of class to ensure we are able to cover all of the course content. </strong> </p>
-  
-  
-  <p><strong>ACE-IT Setup Instructions</strong></p>
-  <p>This process will involve using the ACE-IT SoftwareTrak system to install new software onto your machine. Please give sufficient time in advance of the workshop for the installation process.
-  <ol>
-  <li> Through SoftwareTrack, request the installation of Git. This should be self-service and should install immediately. </li>
-  <li> Request that Python be installed on your machine. This is a multi-step process detailed below:
-    <ol type="a">
-      <li> Go to the ACEIT website: https://aceit.usace.army.mil/Pages/default.aspx </li>
-      <li> Hover over the “Self Help” option until a menu appears </li>
-      <li> Scroll down to “Software Search (Approval Status, etc.)” and click it </li>
-      <li> From here, an app portal will open up </li>
-      <li> Once the app portal is open, go to the top of page and within the “Search Catalog” search for “Python” </li>
-      <li> Several options for Python will appear; scroll down until you find “Python Software Foundation Python 3.6.4” </li>
-      <li> Click “Add to Cart” </li>
-      <li> Go to checkout making sure to choose the machine you want to use for the analysis </li>
-      <li> Click “Next” </li>
-      <li> The request for install has been submitted; someone from ACEIT will contact you to finish the installation process (usually takes 1-3 days) </li>
-      <li> An ACEIT technician will install Python 3.6.4 on your local machine </li>
-    </ol>
-  </ol>
 </p>
 
 {% comment%}
@@ -314,6 +293,7 @@ please preview your site before committing, and make sure to run
 
     <div class="tab-content">
       <article role="tabpanel" class="tab-pane active" id="shell-windows">
+      <p></p>
       <p><strong>RDE Setup Instructions</strong></p>
         <a href="https://www.youtube.com/watch?v=339AEqk9c-8">Video Tutorial</a>
         <ol>
@@ -571,6 +551,7 @@ please preview your site before committing, and make sure to run
 
     <div class="tab-content">
       <article role="tabpanel" class="tab-pane active" id="python-windows">
+      <p></p>
       <p><strong>RDE Setup Instructions</strong></p>
         <a href="https://www.youtube.com/watch?v=xxQ0mzZ8UvA">Video Tutorial</a>
         <ol>
@@ -579,6 +560,24 @@ please preview your site before committing, and make sure to run
           <li>Install Python 3 using all of the defaults for installation <em>except</em> make sure to check <strong>Add Anaconda to my PATH environment variable</strong>.</li>
         </ol>
       <p><strong>ACE-IT Setup Instructions</strong></p>
+  <p>This process will involve using the ACE-IT SoftwareTrak system to install new software onto your machine. Please give sufficient time in advance of the workshop for the installation process.
+  <ol>
+  <li> Through SoftwareTrack, request the installation of Git. This should be self-service and should install immediately. </li>
+  <li> Request that Python be installed on your machine. This is a multi-step process detailed below:
+    <ol type="a">
+      <li> Go to the ACEIT website: https://aceit.usace.army.mil/Pages/default.aspx </li>
+      <li> Hover over the “Self Help” option until a menu appears </li>
+      <li> Scroll down to “Software Search (Approval Status, etc.)” and click it </li>
+      <li> From here, an app portal will open up </li>
+      <li> Once the app portal is open, go to the top of page and within the “Search Catalog” search for “Python” </li>
+      <li> Several options for Python will appear; scroll down until you find “Python Software Foundation Python 3.6.4” </li>
+      <li> Click “Add to Cart” </li>
+      <li> Go to checkout making sure to choose the machine you want to use for the analysis </li>
+      <li> Click “Next” </li>
+      <li> The request for install has been submitted; someone from ACEIT will contact you to finish the installation process (usually takes 1-3 days) </li>
+      <li> An ACEIT technician will install Python 3.6.4 on your local machine </li>
+    </ol>
+  </ol>
       </article>
       <article role="tabpanel" class="tab-pane active" id="python-macos">
         <a href="https://www.youtube.com/watch?v=TcSAln46u9U">Video Tutorial</a>
