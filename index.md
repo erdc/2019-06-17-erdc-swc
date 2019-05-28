@@ -101,13 +101,6 @@ Modify the block below if there are any special requirements.
 <p id="requirements">
   <strong>Requirements:</strong> Participants must bring a laptop with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have installed Git, a Bash terminal emulator, and Python 3 version. <strong> Please have this done prior to the first day of class to ensure we are able to cover all of the course content. </strong> </p>
   
-  <p><strong>RDE Setup Instructions</strong></p>
-  <p>This assumes that you have administrator rights on your machine to install software and you are on the Windows platform. If you do not, please contact your RDE technician to do the following steps:
-  <ol>
-    <li>Install a Bash emulator and Git. While you may use whatever tools you are most comfortable with, recommended versions can be found here. (https://gitforwindows.org/) </li>
-    <li>Install a Python version. While any Python 3 version is acceptable, the Anaconda distribution is recommended. (https://www.anaconda.com/distribution/) </li>
-  </ol>
-  </p>
   
   <p><strong>ACE-IT Setup Instructions</strong></p>
   <p>This process will involve using the ACE-IT SoftwareTrak system to install new software onto your machine. Please give sufficient time in advance of the workshop for the installation process.
@@ -321,6 +314,7 @@ please preview your site before committing, and make sure to run
 
     <div class="tab-content">
       <article role="tabpanel" class="tab-pane active" id="shell-windows">
+      <p><strong>RDE Setup Instructions</strong></p>
         <a href="https://www.youtube.com/watch?v=339AEqk9c-8">Video Tutorial</a>
         <ol>
           <li>Download the Git for Windows <a href="https://git-for-windows.github.io/">installer</a>.</li>
@@ -376,6 +370,14 @@ please preview your site before committing, and make sure to run
           </li>
         </ol>
         <p>This will provide you with both Git and Bash in the Git Bash program.</p>
+      <p><strong>ACE-IT Setup Instructions</strong></p>
+      <ol>
+      <p>This process will involve using the ACE-IT SoftwareTrak system to install new software onto your machine. Please give 
+         sufficient time in advance of the workshop for the installation process. </p>
+  <li> Through SoftwareTrack, request the installation of Git. This should be self-service and should install immediately. </li>
+      
+      </ol>
+      
       </article>
       <article role="tabpanel" class="tab-pane active" id="shell-macos">
         <p>
@@ -569,12 +571,14 @@ please preview your site before committing, and make sure to run
 
     <div class="tab-content">
       <article role="tabpanel" class="tab-pane active" id="python-windows">
+      <p><strong>RDE Setup Instructions</strong></p>
         <a href="https://www.youtube.com/watch?v=xxQ0mzZ8UvA">Video Tutorial</a>
         <ol>
           <li>Open <a href="https://www.anaconda.com/download/#windows">https://www.anaconda.com/download/#windows</a> with your web browser.</li>
           <li>Download the Python 3 installer for Windows.</li>
           <li>Install Python 3 using all of the defaults for installation <em>except</em> make sure to check <strong>Add Anaconda to my PATH environment variable</strong>.</li>
         </ol>
+      <p><strong>ACE-IT Setup Instructions</strong></p>
       </article>
       <article role="tabpanel" class="tab-pane active" id="python-macos">
         <a href="https://www.youtube.com/watch?v=TcSAln46u9U">Video Tutorial</a>
