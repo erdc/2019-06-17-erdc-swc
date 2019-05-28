@@ -74,9 +74,8 @@ address.
   {{page.address}}.
   Get directions with
   <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
-  Exact room TBD. Please check back closer to the event.
   or
-  <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>.
+  <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>. ERDC CHL Curtis Conference Facility.
 </p>
 {% endif %}
 
@@ -100,7 +99,6 @@ Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
   <strong>Requirements:</strong> Participants must bring a laptop with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have installed Git, a Bash terminal emulator, and Python 3 version. <strong> Please have this done prior to the first day of class to ensure we are able to cover all of the course content. </strong> </p>
-</p>
 
 {% comment%}
 CODE OF CONDUCT
