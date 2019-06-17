@@ -213,6 +213,14 @@ e.g., '2015-06-10-esu'.
 
 <hr/>
 
+<h2 id="lessions">Links to Lessons</h2>
+<p>Please use these links to follow along in the lessons.</p>
+<p><a href="http://swcarpentry.github.io/shell-novice/">The Unix Shell</a></p>
+<p><a href="http://swcarpentry.github.io/git-novice/">Version Controll with Git</a></p>
+<p><a href="http://swcarpentry.github.io/python-novice-inflammation/">Programming with Python</a></p>
+
+<hr/>
+
 {% comment %}
 SYLLABUS
 
